@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Assignment 5</title>
+  </head>
+  <body>
+    <div class="links">
+      <a href="https://www.google.com/" target="_blank">Google</a>
+
+      <a href="https://www.microsoft.com/en-us" target="_blank">Microsoft</a>
+
+      <a href="https://www.yahoo.com/" target="_blank">Yahoo</a>
+    </div>
+
+    <div class="guest-book">
+      <h1>Guest book</h1>
+
+      <hr />
+      <form action="https://www.w3schools.com/action_page.php">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" value="" />
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" value="" /><br /><br />
+
+        <label for="college">College:</label>
+
+        <input
+          type="checkbox"
+          id="business"
+          name="college"
+          value="business"
+          checked
+        />
+        <label for="business">Business</label>
+
+        <input
+          type="checkbox"
+          id="education"
+          name="college"
+          value="education"
+        />
+        <label for="education">Education</label>
+
+        <input type="checkbox" id="art" name="college" value="art-science" />
+        <label for="art">Art and Science</label>
+        <br />
+
+        <label for="current-profession">Current profession:</label><br />
+        <select name="profession" id="profession">
+          <option value="education">Education</option>
+          <option value="banking">Banking</option>
+          <option value="non-profit">Non-Profit</option></select
+        ><br /><br />
+
+        <label for="comments">Comments:</label><br />
+        <textarea id="comments" name="comments" rows="3" cols="30"></textarea>
+
+        <br /><br />
+
+        <label for="share-comments"
+          >Would you like to share your comments with others?</label
+        ><br />
+        <input
+          type="radio"
+          id="yes"
+          name="share-comments"
+          value="yes"
+          checked
+        />
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="share-comments" value="no" />
+        <label for="no">No</label><br /><br />
+
+        <hr />
+        <input type="submit" value="Send" />
+        <input type="reset" value="Clear" />
+      </form>
+    </div>
+
+    <div id="copyright-container">
+      <p id="Copyright">Copyright IS247 Assignment - Jackie Maldonado</p>
+    </div>
+  </body>
+</html>
